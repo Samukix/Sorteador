@@ -1,0 +1,39 @@
+*{
+    padding: auto;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: "Arial";
+}
+
+body{
+    background-color: azure;
+    width: 100vh;
+    min-height: grid;
+    display: grid;
+    place-items: center;
+}
+
+div.box {
+    min-width: 1000px;
+    background-color: blueviolet;
+    border-radius: 100PX;
+    padding: 100PX;
+    text-align: center;
+}
+
+div.box g1 {
+    font-size: 22pt;
+    color: rgb(237, 235, 238);
+    margin: 15px 0;
+}
+
+div.box button {
+    font-size: 16pt;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 5px;
+    background-color: azure;
+    color: rgb(78, 10, 10);
+    cursor: pointer;
+
+}
